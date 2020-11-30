@@ -1,0 +1,7 @@
+.vscode/
+.DS_Store
+
+# Local database data files should not be committed.
+db/data 
+
+env.txt

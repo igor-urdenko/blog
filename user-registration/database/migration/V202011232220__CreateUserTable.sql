@@ -1,0 +1,8 @@
+CREATE TABLE ureg.user (
+    id SERIAL PRIMARY KEY,
+    username TEXT NOT NULL UNIQUE,
+    psalt TEXT NOT NULL UNIQUE,
+    phash TEXT NOT NULL UNIQUE,
+    created TIMESTAMP NOT NULL,
+    updated TIMESTAMP NOT NULL
+);
